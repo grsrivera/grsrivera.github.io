@@ -1,16 +1,3 @@
- /* Added transition animation between slides
- Added Argentina pic*/
-
-/* 
-
-X lines/blocks are customizable based on number of pictures in set:
-Line 47: Edit width of picture strip based on number of pictures. 
-              Picture Strip Width) = 800px * # of pictures 
-Line 86: 8800 px
-Block starting on Line 106: Add radio button label styling for each radio button
-
-*/
-
 * {
     box-sizing: border-box;
     /* outline: 2px solid rgba(255, 0, 0, 0.471); */
@@ -54,8 +41,9 @@ html, body {
 }
 
 .strip {
+    will-change: transform; /* Prevents "hiccup" when sliding the image strip */
     display: flex;   
-    transition: 2s;
+    transition: .5s; 
 }
 
 .slide {
@@ -203,23 +191,3 @@ label[for="radio6"] {
         color: white;
     }
 } 
-
-/* This is the only section that has to be tailored for each photo set, in case of design changes */
-/* Update: this part removed. This is done in the template.js file now so no user input required. Found in activeStyling() */
-/* 
-
- #radio0:checked ~ label[for="radio0"],
-#radio1:checked ~ label[for="radio1"],
-#radio2:checked ~ label[for="radio2"],
-#radio3:checked ~ label[for="radio3"],
-#radio4:checked ~ label[for="radio4"],
-#radio5:checked ~ label[for="radio5"],
-#radio6:checked ~ label[for="radio6"],
-#radio7:checked ~ label[for="radio7"],
-#radio8:checked ~ label[for="radio8"],
-#radio9:checked ~ label[for="radio9"],
-#radio10:checked ~ label[for="radio10"] {    <--- Add additional radio buttons here 
-    background: white;
-} 
-
-*/
