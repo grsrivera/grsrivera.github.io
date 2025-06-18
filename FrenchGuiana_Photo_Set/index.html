@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>French Guiana Photo Set</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../0_Photo_Set_Template/template.css">
+
+    <script src="https://kit.fontawesome.com/148a096976.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Had to set picture box height to auto for all. May be a setting I had camera set to in Bolivia, but the sizes are off.
+   Height: auto removes excessive white-space in top border of picture-box -->
+
+  <div class="everything">
+    <div class="title">
+      <h1>French Guiana</h1>
+      <p>June 19<sup>th</sup> – July 3<sup>rd</sup>, 2024</p>
+    </div>
+
+    <div class="strip">
+      <div class="slide">
+        <div class="picture-box"> 
+          <img src="./Photos/1_River.JPEG" alt="Maroni River">
+        </div>
+        <div class="caption">
+          Crossing the Maroni River from Suriname to French Guiana. The border also marks an economic divide. As an overseas department of France, French Guiana is more developed and benefits from EU funding.
+        </div>  
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/2_Prison.JPG" alt="Transportation Camp in St-Laurent-du-Maroni">  
+        </div>
+        <div class="caption">
+          The kitchen of the prison in St-Laurent-du-Maroni. French Guiana started as a penal colony in 1852. The French had aspirations of it becoming the next Australia, but the harsh conditions and tropical diseases made it more of a death sentence for prisoners.
+        </div>
+      </div>  
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/3_Tower.JPG" alt="Semaphore tower">  
+        </div>
+        <div class="caption">
+          A semaphore tower in Kourou. This was also the last photo I'd take with my Fuji camera this trip before dropping and breaking it :(
+        </div>
+      </div>
+      <div class="slide">  
+        <div class="picture-box">
+          <img src="./Photos/4_SpaceCenter.JPEG" alt="Kourou Space Center">  
+        </div>
+        <div class="caption">
+          The Kourou Space Center, operated by the European Space Agency. The location near the equator allows rockets to take advantage of the Earth's rotation for an extra boost.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/5_Cayenne.JPEG" alt="Cayenne from a hill">  
+        </div>
+        <div class="caption"> 
+          A view of Cayenne, the capital of French Guiana
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/6_Park.JPEG" alt="Jardin Botanique">  
+        </div>
+        <div class="caption">
+          Jardin Botanique in Cayenne. This memorial has the names of over 13,000 formerly enslaved people who became French citizens after slavery was abolished in 1848.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">  
+          <img src="./Photos/7_DiamondRock.JPEG" alt="Diamond Rock">  
+        </div>
+        <div class="caption" style="padding-left:55px; padding-right:55px;">
+          Diamond Rock in Martinique. It was hard finding a flight back to Alaska from French Guiana. The only routes they had were to other parts of France — my two options being Martinique and Paris. I ended up spending a week on the island.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/8_Night.JPEG" alt="Building at night">  
+        </div>
+        <div class="caption">
+          Fun night shot taken in the capital, Fort-de-France
+        </div>  
+      </div>
+      <div class="slide">  
+        <div class="picture-box">
+          <img src="./Photos/9_Memorial.JPEG" alt="Cap 110 Memorial">  
+        </div>
+        <div class="caption">
+          A memorial for the victims of an 1830 shipwreck off the coast of Martinique and the transatlantic slave trade. The statues face toward the Gulf of Guinea, where slaves were taken from.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/10_Buildings.JPEG" alt="Creole buildings">  
+        </div>
+        <div class="caption" style="padding-left:15px; padding-right:15px;"">
+          Caribbean Creole architecture
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/11_Volcano.JPEG" alt="Mont Pelée">  
+        </div>
+        <div class="caption">
+          In the distance is Mont Pelée, a volcano that killed over 29,000 people when it erupted in 1902.
+        </div>
+      </div>
+    </div>
+
+    <div class="interactive-container">
+      <div class="slide-indicator">
+        <span>1/11</span>
+      </div>
+
+      <button class="left-arrow">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+
+      <div class="button-viewport"> <!-- Need this container because labels are in-line elements that will be squished -->
+        <div class="label-strip">
+          <div class="moving-label"></div>
+          
+          <input type="radio" name="radio-buttons" id="radio0" checked>
+          <input type="radio" name="radio-buttons" id="radio1">
+          <input type="radio" name="radio-buttons" id="radio2">
+          <input type="radio" name="radio-buttons" id="radio3">
+          <input type="radio" name="radio-buttons" id="radio4">
+          <input type="radio" name="radio-buttons" id="radio5">
+          <input type="radio" name="radio-buttons" id="radio6">
+          <input type="radio" name="radio-buttons" id="radio7">
+          <input type="radio" name="radio-buttons" id="radio8">
+          <input type="radio" name="radio-buttons" id="radio9">
+          <input type="radio" name="radio-buttons" id="radio10">
+
+          <label for="radio0" class="radio-button-label"></label>
+          <label for="radio1" class="radio-button-label"></label>
+          <label for="radio2" class="radio-button-label"></label>
+          <label for="radio3" class="radio-button-label"></label>
+          <label for="radio4" class="radio-button-label"></label>
+          <label for="radio5" class="radio-button-label"></label>
+          <label for="radio6" class="radio-button-label"></label>
+          <label for="radio7" class="radio-button-label"></label>
+          <label for="radio8" class="radio-button-label"></label>
+          <label for="radio9" class="radio-button-label"></label>
+          <label for="radio10" class="radio-button-label"></label>
+        </div>
+      </div>
+
+      <button class="right-arrow">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="../0_Photo_Set_Template/template.js"></script> 
+
+</body>
+</html>

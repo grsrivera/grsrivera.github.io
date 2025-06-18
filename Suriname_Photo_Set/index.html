@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Suriname Photo Set</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../0_Photo_Set_Template/template.css">
+
+    <script src="https://kit.fontawesome.com/148a096976.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Had to set picture box height to auto for all. May be a setting I had camera set to in Bolivia, but the sizes are off.
+   Height: auto removes excessive white-space in top border of picture-box -->
+
+  <div class="everything">
+    <div class="title">
+      <h1>Suriname</h1>
+      <p>June 12<sup>th</sup> – 19<sup>th</sup>, 2024</p>
+    </div>
+
+    <div class="strip">
+      <div class="slide">
+        <div class="picture-box"> 
+          <img src="./Photos/1_Hooiberg.JPG" alt="The view from Hooiberg, Aruba">
+        </div>
+        <div class="caption">
+          I flew to Suriname after saying goodbye to Pat in Medellín. I had a 10 hour layover in Aruba where I rented a car and drove around the island. In the center is a mountain called Hooiberg that I took this photo on. 
+        </div>  
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/2_Donkey.JPG" alt="Donkey">  
+        </div>
+        <div class="caption">
+          I guess one of the most popular tourist attractions on the island is the donkey sanctuary. The Spanish first brought donkeys to the island in the 1500s as work animals. The sanctuary was started in the 1990s to care for the feral donkeys that had been abandoned when cars became more common. 
+        </div>
+      </div>  
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/3_Arikok.JPG" alt="Cave painting in Arikok">  
+        </div>
+        <div class="caption">
+          This painting is found in a cave in Arikok National Park. It was likely made around 500 to 2,000 AD by the Caquetío people, who likely migrated to islands in the southern Caribbean from South America.
+        </div>
+      </div>
+      <div class="slide">  
+        <div class="picture-box">
+          <img src="./Photos/4_Cove.JPG" alt="Shot of a cove in Aruba">  
+        </div>
+        <div class="caption">
+          Cool cove in Aruba
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/5_Buildings.JPG" alt="Dutch architecture in Aruba">  
+        </div>
+        <div class="caption"> 
+          Dutch architecture in Oranjestad, Aruba. This building is now the Archaeological Museum of Aruba.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/6_Mosque.JPG" alt="Ahmadiyya Anjuman Isha’at Islam Mosque">  
+        </div>
+        <div class="caption">
+          The Ahmadiyya Anjuman Isha’at Islam Mosque in Paramaribo, Suriname — the largest mosque in South America. It reflects Suriname's diversity, including its large large Javanese population, who were brought by the Dutch as indentured laborers in the late 19th and early 20th centuries.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">  
+          <img src="./Photos/7_WarMemorial.JPG" alt="Korean War Memorial">  
+        </div>
+        <div class="caption" style="padding-left:55px; padding-right:55px;">
+          The Korean War Memorial in Paramaribo. Suriname sent 115 soldiers to fight in the war as part of the Dutch battalion.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/8_Soup.JPG" alt="Peanut Soup">  
+        </div>
+        <div class="caption">
+          Peanut soup. It has West African roots and was brought to Suriname by enslaved Africans. Today, it remains a staple in Surinamese cuisine.
+        </div>  
+      </div>
+      <div class="slide">  
+        <div class="picture-box">
+          <img src="./Photos/9_Fredberg.JPG" alt="View atop Fredberg">  
+        </div>
+        <div class="caption">
+          Sunrise from Fredberg, a mountain several hours outside of Paramaribo. I wanted to do a few more hikes into the jungle, but it was hard to find an operator. It seemed that the tourism industry got hit hard during COVID and still hadn't recovered.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/10_Zeelandia.JPEG" alt="The river from Fort Zeelandia">  
+        </div>
+        <div class="caption" style="padding-left:15px; padding-right:15px;"">
+          The Suriname River from Fort Zeelandia. Built by the Dutch in the 1600s, the fort later became the headquarters of the 1980 coup, which occurred shortly after Suriname's independence. It was also the site of the 1982 December Murders, when critics of Desi Bouterse's regime were executed.
+        </div>
+      </div>
+      <div class="slide">
+        <div class="picture-box">
+          <img src="./Photos/11_Pengel.JPG" alt="Pengel statue">  
+        </div>
+        <div class="caption">
+          Statue of Johan Adolf Pengel, prime minister in the 1960's. He's remembered for his leadership during the country's push for self-government.
+        </div>
+      </div>
+    </div>
+
+    <div class="interactive-container">
+      <div class="slide-indicator">
+        <span>1/11</span>
+      </div>
+
+      <button class="left-arrow">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+
+      <div class="button-viewport"> <!-- Need this container because labels are in-line elements that will be squished -->
+        <div class="label-strip">
+          <div class="moving-label"></div>
+          
+          <input type="radio" name="radio-buttons" id="radio0" checked>
+          <input type="radio" name="radio-buttons" id="radio1">
+          <input type="radio" name="radio-buttons" id="radio2">
+          <input type="radio" name="radio-buttons" id="radio3">
+          <input type="radio" name="radio-buttons" id="radio4">
+          <input type="radio" name="radio-buttons" id="radio5">
+          <input type="radio" name="radio-buttons" id="radio6">
+          <input type="radio" name="radio-buttons" id="radio7">
+          <input type="radio" name="radio-buttons" id="radio8">
+          <input type="radio" name="radio-buttons" id="radio9">
+          <input type="radio" name="radio-buttons" id="radio10">
+
+          <label for="radio0" class="radio-button-label"></label>
+          <label for="radio1" class="radio-button-label"></label>
+          <label for="radio2" class="radio-button-label"></label>
+          <label for="radio3" class="radio-button-label"></label>
+          <label for="radio4" class="radio-button-label"></label>
+          <label for="radio5" class="radio-button-label"></label>
+          <label for="radio6" class="radio-button-label"></label>
+          <label for="radio7" class="radio-button-label"></label>
+          <label for="radio8" class="radio-button-label"></label>
+          <label for="radio9" class="radio-button-label"></label>
+          <label for="radio10" class="radio-button-label"></label>
+        </div>
+      </div>
+
+      <button class="right-arrow">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="../0_Photo_Set_Template/template.js"></script> 
+
+</body>
+</html>
